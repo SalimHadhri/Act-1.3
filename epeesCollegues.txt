@@ -1,0 +1,43 @@
+fonction CarMin2Maj(S car): car;
+ 
+Var
+    i: entier;
+    MAJ, MIN: tab[1... 26] en caractere
+ 
+Debut
+    MAJ = ['A' ... 'Z'];
+    MIN = ['a' ... 'z'];
+ 
+    Pour i allant de 0 à 25 par pas de 1 Faire
+            Si MIN[i] == S Alors
+                S[i] = MAJ[i];
+            FinSi
+    FinPour
+retourne S ;
+Fin.
+	
+
+
+
+
+
+fonction triBulle(ref T1 :tableau[1..N] de chaine de caractere) : T2 :tableau[1..N] de chaine de caractere ;
+var i,j :entier;
+  début
+
+	
+    pour i allant de 1 à N-1 faire
+      pour j allant de N à i+1 par pas de -1 faire
+	var cj : car ;
+	var cj-1 : car ;
+	cj = CarMin2Maj (T1[j][0]) ;
+	cj-1 = CarMin2Maj (T1[j-1][0]) ;
+        si cj  < cj-1 alors
+          echange(T1, j, j-1);
+        finsi
+      finpour
+    finpour
+	T2 = T1
+reytourne (T2) ;
+  fin
+finfonction

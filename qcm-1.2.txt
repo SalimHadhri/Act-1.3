@@ -1,0 +1,33 @@
+QCM 1 - Qu'est-ce qu'une fonction ?
+
+c)Un regroupement de code indépendant du reste du programme;
+
+****************************************************************************************************************************
+
+QCM 2 - Qu'est-ce qu'une Structure de données ?
+
+c)Un regroupement de variables;
+
+*******************************************************************************************************************************
+
+QCM 3 - Qu'est-ce qu'un Tableau ?
+
+a)Un regroupement de variables de même type;
+
+****************************************************************************************************************************
+
+QCM 4 - Quel est l'utilité d'un tri sur un tableau?
+
+b)La recherche d’éléments est plus aisée;
+
+************************************************************************************************************************
+
+QCM 5 - Quelle est la complexité du tri sélection ?
+
+c)O(n²);
+
+*******************************************************************************************************************
+
+QCM 6 - Quel tri peut avoir la plus petite complexité ?
+
+c)Le tri par sélection;
