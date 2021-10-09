@@ -3,13 +3,11 @@ import java.util.* ;
 public class ageApprentis
 {
 	public static void main(String[] args) {
-
-		int[] ageArray = {45, 54, 23, 32, 64, 46, 28, 82} ;
 		
+		int[] ageArray = {45, 54, 23, 32, 64, 46, 28, 82} ;		
 		int[] arraySorted = trieDecroissant(ageArray ) ;
 		
 		for (int i =0 ; i <ageArray.length ; i++){
-
 		System.out.println(arraySorted [i]);
 		}		
 	}
@@ -25,13 +23,10 @@ public class ageApprentis
 	return max; 		
 	}
 
-
-		public static  int[] trieDecroissant(int[] table) {
+	public static  int[] trieDecroissant(int[] table) {
 
 		int ln = table.length ;
-
 		int[] tabSorted = new int[table.length] ;
-		//int max = maxInt(table) ;
 
 		for (int i = 0 ; i< table.length ;i++) {
 			int[] copy = Arrays.copyOfRange(table, i , table.length);
@@ -41,16 +36,10 @@ public class ageApprentis
 				if (table[j]==max){
 					tabSorted[i]= max;
 					table[j]=table[i] ;
-
 				}
-				}
-
-
-	
-					
-				}
-		return tabSorted ;
+			}
+				
 		}
-
-	
+		return tabSorted ;
+	}	
 }
